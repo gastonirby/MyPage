@@ -310,6 +310,63 @@ body {
 @media(max-width:500px){
 
 
+	header {
+		width: auto;
+		text-align: center;
+	}
+	nav {
+		justify-content: space-around;
+		width: 100%;
+		margin: 0 6%;
+		padding: 3%;
+		margin-left: auto;
+		background-color:rgb(213,197,174, .7);
+	}
+
+	.icons {
+		justify-content: space-around;
+		font-size: 7rem;
+		background-color: none;
+	}
+
+	h1 {
+		font-size: 70px;
+	}
+	
+	h3 {
+		margin: 5%;
+		padding: 3%;
+	}
+
+	.name {
+		margin-top: 40%;
+	}
+
+	.aboutme {
+		font-size: 1.5rem;
+		width: 80%;
+		margin-bottom: 2%;
+		background-color:rgb(213,197,174, .7);
+	}
+
+	.projects {
+		/* display: flex; */
+		/* flex-wrap: wrap; */
+	}
+
+	.box {
+		display: flex;
+		width: 40%;
+		height: 40%;
+		margin: 5%;
+	}
+
+	.anim-bloc {
+		width: 90%;
+		height: 10vh;
+		top: 75%;
+	}
+
 } 
 
 @media(max-width:400px){
@@ -355,10 +412,6 @@ body {
 		font-size: 1.5rem;
 		width: 80%;
 		background-color:rgb(213,197,174, .7);
-	}
-
-	.contactf {
-		font-size: 2rem;
 	}
 
 	.box {
