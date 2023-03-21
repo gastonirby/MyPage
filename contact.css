@@ -43,6 +43,14 @@ table {
 html{
     font-size:62.5%;
 }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+
+    /* border:1px solid grey; */
+}
 body { 
     font-size:1.6rem;
     line-height:1.5;
@@ -51,16 +59,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	overscroll-behavior: none;
-
-}
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width:100%;
-  /*put a border around everything to see where it stops and starts*/
-    /* border:1px solid grey; */
 }
 
 .img {    
@@ -78,23 +76,19 @@ body {
 	left: 50%; 
 	margin-top: 5rem;
 	transform: translateX(-50%);
-	width: 90%;
+	width: 95%;
   }
 
 .card {
     display: flex;
     flex-direction: column;
 	text-align: center;
-
     margin: 10%;
     margin-top: 15%;
 	padding: 2% 4%;
 	border-radius:5px;
-    
 	background-color:rgb(213,197,174, .3);
 	color:rgb(213,197,174);
-	
-
 }
 
 h1 {
@@ -107,7 +101,7 @@ h1 {
 	text-transform: uppercase;
 }
 
-h2, h3 {
+h2 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color: whitesmoke;
@@ -130,7 +124,7 @@ nav {
 	justify-content: center;
 	padding: 2%;
 	background: none;
-	font-size: 70px;
+	font-size: 7rem;
 	border: none;
 	color: white;
 	cursor: pointer;
@@ -231,16 +225,24 @@ nav {
 
 	.icons {
 		justify-content: space-around;
-		font-size: 5rem;
-		background-color: none;
+		font-size: 4rem;
 	}
 
 	.card {
-		margin-top: 50%;
-		padding: 2% 4%;
+		align-items: center;
+		margin-top: 42%;
+		width: 80%;
+		padding: 2% 5%;
+		background-color:rgb(213,197,174, .65);
 	}
 
 	h1 {
-		font-size: 50px;
+		font-size: 4rem;
+		letter-spacing: 2px;
+	}
+
+	h2 {
+		font-size: 2rem;
+		letter-spacing: 1px;
 	}
 }
