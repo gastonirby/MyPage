@@ -134,24 +134,46 @@ nav {
 }
 
 @media(max-width:500px){
-
-
-} 
-
-@media(max-width:400px){
-	/* * {
-		border:1px solid grey;
-	} */
-
 	body {
 		overscroll-behavior: none;
 	}
 
+	nav {
+		justify-content: space-around;
+		width: 100%;
+		margin: 0 6%;
+		padding: 3%;
+		margin-left: auto;
+		background-color:rgb(213,197,174, .7);
+	}
 
-	/* header {
-		width: auto;
-		text-align: center;
-	} */
+	.icons {
+		justify-content: space-around;
+		font-size: 7rem;
+		background-color: none;
+	}
+
+	.card {
+		margin-top: 40%;
+		padding: 2% 4%;
+	}
+
+	h1 {
+		font-size: 50px;
+		margin-bottom: 5%;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+} 
+
+@media(max-width:400px){
+	body {
+		overscroll-behavior: none;
+	}
+
 	nav {
 		justify-content: space-around;
 		width: 100%;
