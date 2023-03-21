@@ -63,7 +63,7 @@ body {
 
 .img {    
 	background-image: url(assets/Images/Flower.jpg);
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: fixed;
