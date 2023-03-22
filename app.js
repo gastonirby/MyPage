@@ -86,7 +86,7 @@ mm.add('(max-width: 500px)', () => {
       start: 'top 65%',
       end: 'bottom 90%',
       scrub: 1,
-      markers: true
+      // markers: true
     }
   })
   gsap.from('.projects', {
