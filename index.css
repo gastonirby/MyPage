@@ -422,6 +422,10 @@ body {
 		top: 75%;
 	}
 
+	.load-container {
+		display: none;
+	}
+
 } 
 
 @media(max-width:400px){
