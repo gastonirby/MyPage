@@ -41,7 +41,7 @@ function loader () {
         y: 200,
         scale: 1,
         scrollTrigger: {
-          trigger: '.projects',
+          trigger: '.img1',
           start: 'top 90%',
           end: 'bottom 80%',
           scrub: 5

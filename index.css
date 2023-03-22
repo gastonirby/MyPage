@@ -114,22 +114,20 @@ h1 {
 
 h2 {
 	font-size: 4rem;
-	background-color:rgb(213,197,174, .2);
+	background-color:rgb(213,197,174, .3);
 	padding:0% 2%;
-	
 	border-bottom: 2px solid whitesmoke;
 }
 
 h3 {
-	background-color:rgb(213,197,174, .2);
-	padding: 2%;
+	padding: 2% 0 0;
 	font-size: 3rem;
+	border-bottom: 2px solid whitesmoke;
 }
 
 p {
 	padding:3%;
 	text-align: center;
-	background-color: rgb(213,197,174,.3);
     color: #fff;
 	border-radius:3px;
 }
@@ -169,6 +167,7 @@ nav {
 	width:60%;
 	margin:auto;
 	margin-bottom: 20%;
+	background-color: rgb(213,197,174,.3);
 	visibility: hidden;
 }
 
@@ -176,18 +175,11 @@ nav {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	/* flex-wrap: wrap; */
-	margin-bottom: 40%;
-	/* background-color: rgb(213,197,174,.3); */
-
-}
-
-.sites {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
+	margin: auto;
+	margin-bottom: 30%;
+	/* justify-content: center; */
+	width: 80%;
+	
 }
 
 .website {
@@ -197,29 +189,36 @@ nav {
 	align-items: center;
 	margin-top: 5%;
 	width: 80%;
-	background-color: rgb(213,197,174,.3);
+	background-color: rgb(213,197,174,.4);
 }
 
 .webContent {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	align-items: center;
 	width: 100%;
+
+	/* background-color: yellow; */
 }
 
 .img1, .img2, .img3 {
 	background-size: cover;
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 40%;
-	height: 17vh;
-	margin: 5%;
+	width: 50%;
+	height: 26vh;
+
+	align-items: center;
+	justify-content: center;
+	margin: 3%;
+
+	/* background-color: red; */
 }
 
 .text {
 	width: 40%;
 	margin: 5%;
+	/* background-color: blue; */
 }
 
 .img1 {
