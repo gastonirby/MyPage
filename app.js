@@ -85,7 +85,7 @@ mm.add('(max-width: 500px)', () => {
       trigger: '.aboutme',
       start: 'top 65%',
       end: 'bottom 90%',
-      scrub: 1,
+      scrub: 5,
       // markers: true
     }
   })
