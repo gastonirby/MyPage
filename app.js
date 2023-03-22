@@ -54,20 +54,20 @@ function loader () {
 
 gsap.from('.card', { autoAlpha: 0, scale: 1.5, duration: 3 })
 
-mm.add('(max-width: 700px)', () => {
-  gsap.from('.projects', {
-    autoAlpha: 0,
-    y: 200,
-    scale: 1,
-    scrollTrigger: {
-      trigger: '.projects',
-      start: 'top 90%',
-      end: 'top 100%',
-      scrub: 4,
-      // markers: true
-    }
-  })
-})
+// mm.add('(max-width: 700px)', () => {
+//   gsap.from('.projects', {
+//     autoAlpha: 0,
+//     y: 200,
+//     scale: 1,
+//     scrollTrigger: {
+//       trigger: '.projects',
+//       start: 'top 90%',
+//       end: 'top 100%',
+//       scrub: 4,
+//       // markers: true
+//     }
+//   })
+// })
 
 mm.add('(max-width: 500px)', () => {
   gsap.from('.name', { 
@@ -83,9 +83,10 @@ mm.add('(max-width: 500px)', () => {
     scale: 1,
     scrollTrigger: {
       trigger: '.aboutme',
-      start: 'top 75%',
+      start: 'top 65%',
       end: 'bottom 90%',
       scrub: 1,
+      markers: true
     }
   })
   gsap.from('.projects', {
