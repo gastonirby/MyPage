@@ -54,6 +54,21 @@ function loader () {
 
 gsap.from('.card', { autoAlpha: 0, scale: 1.5, duration: 3 })
 
+mm.add('(max-width: 700px)', () => {
+  gsap.from('.projects', {
+    autoAlpha: 0,
+    y: 200,
+    scale: 1,
+    scrollTrigger: {
+      trigger: '.projects',
+      start: 'top 90%',
+      end: 'top 100%',
+      scrub: 4,
+      // markers: true
+    }
+  })
+})
+
 mm.add('(max-width: 500px)', () => {
   gsap.from('.name', { 
     autoAlpha: 0, 

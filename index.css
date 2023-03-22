@@ -163,6 +163,7 @@ nav {
 .projects {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 15%;
 }
@@ -183,6 +184,7 @@ nav {
 h3 {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	margin-top: 15%;
 }
 
@@ -359,8 +361,9 @@ body {
 	}
 
 	.box {
-		height: 15.9vh;
-		width: 40%;
+		height: 30vh;
+		min-width: 40%;
+		margin: 5%;
 	}
 
 	h3 {
@@ -374,6 +377,22 @@ body {
 		width: 90%;
 		height: 10vh;
 		top: 75%;
+	}
+}
+
+@media(max-width:700px){
+
+	.projects {
+		margin: 5% 0;
+	}
+		.box {
+		height: 40vh;
+		width: 70%;
+	}
+
+	h3 {
+		padding: 3%;
+		letter-spacing: 1px;
 	}
 }
 
@@ -418,13 +437,6 @@ body {
 		width: 80%;
 		margin-bottom: 2%;
 		background-color:rgb(213,197,174, .7);
-	}
-
-	.box {
-		/* display: flex;
-		width: 40%;
-		height: 40%;
-		margin: 5%; */
 	}
 
 	.box {
