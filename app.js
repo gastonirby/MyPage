@@ -63,7 +63,7 @@ mm.add('(max-width: 500px)', () => {
     ease: 'power4'
   })
   gsap.from('.aboutme', {
-    duration: 1.5,
+    // duration: 1.5,
     autoAlpha: 0,
     y: 200,
     scale: 1,
@@ -71,11 +71,11 @@ mm.add('(max-width: 500px)', () => {
       trigger: '.aboutme',
       start: 'top 75%',
       end: 'bottom 90%',
-      scrub: 2,
+      scrub: 1,
     }
   })
   gsap.from('.projects', {
-    duration: 1.5,
+    // duration: 1.5,
     autoAlpha: 0,
     y: 200,
     scale: 1,
@@ -83,7 +83,7 @@ mm.add('(max-width: 500px)', () => {
       trigger: '.projects',
       start: 'top 85%',
       end: 'top 90%',
-      scrub: 3,
+      scrub: 7,
       // markers: true
     }
   })
