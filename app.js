@@ -35,7 +35,6 @@ function loader () {
           start: 'top 75%',
           end: 'bottom 70%',
           scrub: 5,
-          markers: true
         }
       })
       .from('.projects', {
