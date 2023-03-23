@@ -29,9 +29,9 @@ function loader () {
         y: 200,
         scale: 1,
         scrollTrigger: {
-          trigger: '.aboutme',
-          start: 'top 75%',
-          end: 'bottom 70%',
+          trigger: '.aboutTrigger',
+          start: 'top 60%',
+          end: 'top 50%',
           scrub: 5
         }
       })
