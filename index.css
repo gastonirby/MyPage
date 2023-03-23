@@ -407,15 +407,9 @@ body {
 		background-color:rgb(213,197,174, .7);
 	}
 
-	.projects {
-		
-	}
-
 	.webContent {
 		justify-content: center;
-		align-items: center;
 		flex-direction: column;
-		margin: 0;
 	}
 
 	.img1, .img2, .img3 {
@@ -431,11 +425,9 @@ body {
 	}
 
 	h3 {
-		
 		padding: 2%;
 		letter-spacing: 2px;
 	}
-
 
 	.anim-bloc {
 		width: 90%;
@@ -446,17 +438,37 @@ body {
 
 @media(max-width:700px){
 
-	.projects {
-		margin: 10% 0;
+	.website {
+		width: 100%;
 	}
-		.site {
-		height: 40vh;
-		width: 70%;
+
+	.webContent {
+		justify-content: center;
+		flex-direction: column;
+	
+	}
+
+	.img1, .img2, .img3 {
+		height: 30.3vh;
+		width: 100%;
+		order: 1;
+	}
+
+	.text {
+		width: 90%;
+		font-size: 1.5rem ;
+		order: 2;
 	}
 
 	h3 {
-		padding: 3%;
-		letter-spacing: 1px;
+		padding: 2%;
+		letter-spacing: 2px;
+	}
+
+	.anim-bloc {
+		width: 90%;
+		height: 10vh;
+		top: 75%;
 	}
 }
 
@@ -497,17 +509,34 @@ body {
 	.aboutme {
 		font-size: 1.5rem;
 		width: 80%;
-		margin-bottom: 2%;
+		margin-bottom: 20%;
 		background-color:rgb(213,197,174, .7);
 	}
 
-	.site {
-		height: 19.95vh;
-		width: 56%;
+	.website {
+		width: 100%;
+	}
+
+	.webContent {
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.img1, .img2, .img3 {
+		height: 21.6vh;
+		width: 100%;
+		order: 1;
+	}
+
+	.text {
+		width: 90%;
+		font-size: 1.5rem ;
+		order: 2;
 	}
 
 	h3 {
-		padding: 3%;
+		font-size: 1.5rem;
+		padding: 2%;
 		letter-spacing: 1px;
 	}
 
@@ -556,14 +585,9 @@ body {
 		background-color:rgb(213,197,174, .7);
 	}
 
-	.site {
-		height: 19.95vh;
-		width: 56%;
-	}
-
-	h3 {
-		padding: 3%;
-		letter-spacing: 1px;
-		margin-top: auto;
+	.img1, .img2, .img3 {
+		/* height: 17.3vh;		 */
+		height: 21vh;
+		width: 100%;
 	}
 } 
