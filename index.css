@@ -127,7 +127,6 @@ h3 {
 }
 
 p {
-	padding:3%;
 	text-align: center;
     color: #fff;
 	border-radius:3px;
@@ -164,8 +163,9 @@ nav {
 }
 
 .aboutme {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	width:60%;
+	padding: 5%;
 	margin:auto;
 	margin-bottom: 20%;
 	background-color: rgb(213,197,174,.3);
@@ -347,17 +347,13 @@ body {
 		font-size: 9rem;
 	}
 
-	.aboutme {
-		font-size: 1.5rem;
-		margin-bottom: 20%;
-		width: 80%;
-	}
+
 
 	.aboutme {
 		font-size: 1.8rem;
 		width: 80%;
 		margin-bottom: 20%;
-		background-color:rgb(213,197,174, .7);
+		background-color:rgb(213,197,174, .3);
 	}
 
 	.img1, .img2, .img3 {
