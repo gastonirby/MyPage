@@ -101,11 +101,12 @@ header {
 	background-color:rgb(213,197,174, .3);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	color:whitesmoke;
 	border-radius: 2px;
+	text-align: center;
 }
 
 h1 {
@@ -167,9 +168,14 @@ nav {
 	width:60%;
 	padding: 5%;
 	margin:auto;
-	margin-bottom: 20%;
+	/* margin-bottom: 20%; */
 	background-color: rgb(213,197,174,.3);
 	visibility: hidden;
+}
+
+.aboutText {
+	padding: 3%;
+	padding-top: 0;
 }
 
 .projects {
@@ -178,7 +184,6 @@ nav {
 	flex-direction: column;
 	margin: auto;
 	margin-bottom: 30%;
-	/* justify-content: center; */
 	width: 80%;
 	
 }
